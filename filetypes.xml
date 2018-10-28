@@ -1,0 +1,11 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping ext="wasm" type="PLAIN_TEXT" />
+      <mapping ext="wat" type="PLAIN_TEXT" />
+      <mapping ext="stl" type="PLAIN_TEXT" />
+      <mapping ext="toml" type="PLAIN_TEXT" />
+      <mapping pattern="lib" type="Rust" />
+    </extensionMap>
+  </component>
+</application>
