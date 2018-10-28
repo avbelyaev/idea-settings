@@ -14,11 +14,9 @@
     <keyboard-shortcut first-keystroke="meta slash" />
   </action>
   <action id="Console.Execute" />
-  <action id="Console.TableResult.EditValue">
-    <keyboard-shortcut first-keystroke="f2" />
-    <keyboard-shortcut first-keystroke="alt enter" />
-  </action>
+  <action id="Console.TableResult.EditValue" />
   <action id="DirDiffMenu.SynchronizeDiff" />
+  <action id="DirDiffMenu.SynchronizeDiff.All" />
   <action id="Editor Copy">
     <keyboard-shortcut first-keystroke="meta c" />
   </action>
@@ -28,7 +26,6 @@
   <action id="Editor Undo">
     <keyboard-shortcut first-keystroke="meta z" />
   </action>
-  <action id="EditorChooseLookupItem" />
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="meta y" />
   </action>
@@ -69,6 +66,7 @@
   </action>
   <action id="OverrideMethods" />
   <action id="PropertyInspectorActions.EditValue" />
+  <action id="QuickActionPopup" />
   <action id="QuickJavaDoc">
     <keyboard-shortcut first-keystroke="meta e" />
   </action>
@@ -81,9 +79,10 @@
   <action id="Replace">
     <keyboard-shortcut first-keystroke="meta r" />
   </action>
+  <action id="Scala.MakeExplicit" />
   <action id="ShowReformatFileDialog" />
   <action id="ShowSettings" />
-  <action id="WelcomeScreen.Settings">
+  <action id="Vcs.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="meta i" />
   </action>
 </keymap>
