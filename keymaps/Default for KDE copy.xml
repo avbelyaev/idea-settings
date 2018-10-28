@@ -21,6 +21,8 @@
   </action>
   <action id="Console.Execute" />
   <action id="Console.TableResult.EditValue" />
+  <action id="Diff.NextChange" />
+  <action id="Diff.PrevChange" />
   <action id="DirDiffMenu.SynchronizeDiff" />
   <action id="DirDiffMenu.SynchronizeDiff.All" />
   <action id="Editor Copy">
@@ -42,28 +44,28 @@
     <keyboard-shortcut first-keystroke="meta y" />
   </action>
   <action id="EditorLineEnd">
-    <keyboard-shortcut first-keystroke="meta alt right" />
-  </action>
-  <action id="EditorLineEndWithSelection">
-    <keyboard-shortcut first-keystroke="shift meta alt right" />
-  </action>
-  <action id="EditorLineStart">
-    <keyboard-shortcut first-keystroke="meta alt left" />
-  </action>
-  <action id="EditorLineStartWithSelection">
-    <keyboard-shortcut first-keystroke="shift meta alt left" />
-  </action>
-  <action id="EditorNextWord">
     <keyboard-shortcut first-keystroke="meta right" />
   </action>
-  <action id="EditorNextWordWithSelection">
+  <action id="EditorLineEndWithSelection">
     <keyboard-shortcut first-keystroke="shift meta right" />
   </action>
-  <action id="EditorPreviousWord">
+  <action id="EditorLineStart">
     <keyboard-shortcut first-keystroke="meta left" />
   </action>
-  <action id="EditorPreviousWordWithSelection">
+  <action id="EditorLineStartWithSelection">
     <keyboard-shortcut first-keystroke="shift meta left" />
+  </action>
+  <action id="EditorNextWord">
+    <keyboard-shortcut first-keystroke="alt right" />
+  </action>
+  <action id="EditorNextWordWithSelection">
+    <keyboard-shortcut first-keystroke="shift alt right" />
+  </action>
+  <action id="EditorPreviousWord">
+    <keyboard-shortcut first-keystroke="alt left" />
+  </action>
+  <action id="EditorPreviousWordWithSelection">
+    <keyboard-shortcut first-keystroke="shift alt left" />
   </action>
   <action id="Find">
     <keyboard-shortcut first-keystroke="meta f" />
@@ -86,11 +88,15 @@
   <action id="Haskell.ConsoleExecute" />
   <action id="Images.Thumbnails.EnterAction" />
   <action id="ImplementMethods" />
+  <action id="NextEditorTab" />
+  <action id="NextTab" />
   <action id="NextTemplateVariable" />
   <action id="OptimizeImports">
     <keyboard-shortcut first-keystroke="shift meta close_bracket" />
   </action>
   <action id="OverrideMethods" />
+  <action id="PreviousEditorTab" />
+  <action id="PreviousTab" />
   <action id="PropertyInspectorActions.EditValue" />
   <action id="QuickActionPopup" />
   <action id="QuickImplementations" />
