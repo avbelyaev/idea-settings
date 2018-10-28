@@ -8,6 +8,9 @@
   <action id="$Paste">
     <keyboard-shortcut first-keystroke="meta v" />
   </action>
+  <action id="$Redo">
+    <keyboard-shortcut first-keystroke="shift meta z" />
+  </action>
   <action id="$Undo">
     <keyboard-shortcut first-keystroke="meta z" />
   </action>
@@ -28,6 +31,9 @@
   </action>
   <action id="Editor Paste">
     <keyboard-shortcut first-keystroke="meta v" />
+  </action>
+  <action id="Editor Redo">
+    <keyboard-shortcut first-keystroke="shift meta z" />
   </action>
   <action id="Editor Undo">
     <keyboard-shortcut first-keystroke="meta z" />
