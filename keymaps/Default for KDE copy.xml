@@ -89,14 +89,18 @@
   <action id="Images.Thumbnails.EnterAction" />
   <action id="ImplementMethods" />
   <action id="NextEditorTab" />
-  <action id="NextTab" />
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="end" />
+  </action>
   <action id="NextTemplateVariable" />
   <action id="OptimizeImports">
     <keyboard-shortcut first-keystroke="shift meta close_bracket" />
   </action>
   <action id="OverrideMethods" />
   <action id="PreviousEditorTab" />
-  <action id="PreviousTab" />
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="home" />
+  </action>
   <action id="PropertyInspectorActions.EditValue" />
   <action id="QuickActionPopup" />
   <action id="QuickImplementations" />
