@@ -11,6 +11,9 @@
   <action id="$Redo">
     <keyboard-shortcut first-keystroke="shift meta z" />
   </action>
+  <action id="$SelectAll">
+    <keyboard-shortcut first-keystroke="meta a" />
+  </action>
   <action id="$Undo">
     <keyboard-shortcut first-keystroke="meta z" />
   </action>
@@ -36,6 +39,9 @@
   </action>
   <action id="Editor Redo">
     <keyboard-shortcut first-keystroke="shift meta z" />
+  </action>
+  <action id="Editor SelectAll">
+    <keyboard-shortcut first-keystroke="meta a" />
   </action>
   <action id="Editor Undo">
     <keyboard-shortcut first-keystroke="meta z" />
@@ -99,7 +105,9 @@
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="end" />
   </action>
-  <action id="NextTemplateVariable" />
+  <action id="NextTemplateVariable">
+    <keyboard-shortcut first-keystroke="enter" />
+  </action>
   <action id="OptimizeImports">
     <keyboard-shortcut first-keystroke="shift meta close_bracket" />
   </action>
