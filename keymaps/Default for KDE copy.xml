@@ -96,10 +96,10 @@
   <action id="Images.Thumbnails.EnterAction" />
   <action id="ImplementMethods" />
   <action id="MoveLineDown">
-    <keyboard-shortcut first-keystroke="shift page_down" />
+    <keyboard-shortcut first-keystroke="shift meta down" />
   </action>
   <action id="MoveLineUp">
-    <keyboard-shortcut first-keystroke="shift page_up" />
+    <keyboard-shortcut first-keystroke="shift meta up" />
   </action>
   <action id="NextEditorTab" />
   <action id="NextTab">
