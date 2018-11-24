@@ -19,6 +19,9 @@
   </action>
   <action id="ActivateFindToolWindow" />
   <action id="AutoIndentLines" />
+  <action id="CloseActiveTab">
+    <keyboard-shortcut first-keystroke="meta semicolon" />
+  </action>
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="meta slash" />
   </action>
