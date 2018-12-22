@@ -136,9 +136,7 @@
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="shift meta t" />
   </action>
-  <action id="ReformatCode">
-    <keyboard-shortcut first-keystroke="meta close_bracket" />
-  </action>
+  <action id="ReformatCode" />
   <action id="Replace">
     <keyboard-shortcut first-keystroke="meta r" />
   </action>
@@ -147,9 +145,12 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
     <keyboard-shortcut first-keystroke="shift ctrl alt add" />
   </action>
-  <action id="ShowReformatFileDialog" />
+  <action id="ShowReformatFileDialog">
+    <keyboard-shortcut first-keystroke="meta close_bracket" />
+  </action>
   <action id="ShowSettings" />
   <action id="Vcs.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="meta i" />
   </action>
+  <action id="Vcs.ReformatCommitMessage" />
 </keymap>
