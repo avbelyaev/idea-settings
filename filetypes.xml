@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern="creds" type="PLAIN_TEXT" />
       <mapping pattern="aws-external" type="PLAIN_TEXT" />
       <mapping ext="wasm" type="PLAIN_TEXT" />
