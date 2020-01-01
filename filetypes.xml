@@ -4,11 +4,12 @@
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern="creds" type="PLAIN_TEXT" />
       <mapping pattern="aws-external" type="PLAIN_TEXT" />
-      <mapping ext="wasm" type="PLAIN_TEXT" />
       <mapping ext="wat" type="PLAIN_TEXT" />
+      <mapping ext="wasm" type="PLAIN_TEXT" />
       <mapping ext="stl" type="PLAIN_TEXT" />
       <mapping ext="toml" type="PLAIN_TEXT" />
       <mapping pattern="lib" type="Rust" />
+      <mapping ext="rkt" type="Scheme" />
     </extensionMap>
   </component>
 </application>
