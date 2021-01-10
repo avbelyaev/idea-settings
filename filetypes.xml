@@ -1,13 +1,14 @@
 <application>
-  <component name="FileTypeManager" version="17">
+  <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="creds" type="PLAIN_TEXT" />
       <mapping pattern="aws-external" type="PLAIN_TEXT" />
-      <mapping ext="wasm" type="PLAIN_TEXT" />
-      <mapping ext="wat" type="PLAIN_TEXT" />
       <mapping ext="stl" type="PLAIN_TEXT" />
+      <mapping ext="wat" type="PLAIN_TEXT" />
+      <mapping ext="wasm" type="PLAIN_TEXT" />
       <mapping ext="json-stream" type="PLAIN_TEXT" />
       <mapping pattern="lib" type="Rust" />
+      <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <mapping ext="rkt" type="Scheme" />
     </extensionMap>
   </component>
